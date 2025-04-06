@@ -8,7 +8,7 @@ export default function Home() {
         This example demonstrates how to generate dynamic Open Graph images for your Next.js blog posts.
       </p>
       <Link href="/blog" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">
-        View Blog Posts
+        View Blog Posts ZS
       </Link>
     </div>
   )
