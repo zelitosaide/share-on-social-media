@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: {
-    default: "Dynamic OG Image Blog!!!",
-    template: "%s | Dynamic OG Image Blog",
+    default: "Dynamic OG Image Blog",
+    template: "%s | Dynamic OG Image Blog!!!",
   },
   description: "A blog demonstrating dynamic Open Graph image generation with Next.js!!!",
   metadataBase: new URL("https://www.doxample.com"),
