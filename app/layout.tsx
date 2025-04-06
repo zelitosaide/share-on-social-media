@@ -16,10 +16,10 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.doxample.com",
-    siteName: "Dynamic OG Blog:zas",
+    siteName: "Dynamic OG Blog",
     images: [
       {
-        url: "/escolaberta.jpg",
+        url: "/default-og.jpg",
         width: 1200,
         height: 630,
         alt: "Dynamic OG Image Blog",
