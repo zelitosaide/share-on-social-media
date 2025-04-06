@@ -98,7 +98,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
     <article className="max-w-2xl mx-auto py-12 px-4">
       {/* Add JSON-LD structured data */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+      <h1 className="text-4xl font-bold mb-4">zas:{post.title}</h1>
       <p className="text-gray-500 mb-8">{formattedDate}</p>
       <p className="text-lg text-gray-700 mb-6">{post.excerpt}</p>
       <div className="prose max-w-none">{post.content}</div>
