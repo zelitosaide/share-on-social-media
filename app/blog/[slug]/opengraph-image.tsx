@@ -98,7 +98,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
           color: "#111",
         }}
       >
-        {post.title} zas
+        {post.title}
       </div>
 
       {/* Excerpt */}
@@ -111,7 +111,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
           maxWidth: "80%",
         }}
       >
-        {post.excerpt} zas
+        {post.excerpt}
       </div>
 
       {/* Footer with metadata */}

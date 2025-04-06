@@ -19,10 +19,10 @@ export const metadata = {
     siteName: "Dynamic OG Blog:zas",
     images: [
       {
-        url: "/default-og.png",
+        url: "/escolaberta.jpg",
         width: 1200,
         height: 630,
-        alt: "Dynamic OG Image Blog:zas",
+        alt: "Dynamic OG Image Blog",
       },
     ],
   },
