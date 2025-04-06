@@ -11,7 +11,7 @@ const posts: Post[] = [
   {
     slug: "getting-started-with-nextjs",
     title: "Getting Started with Next.js",
-    excerpt: "Learn how to build modern web applications with Next.js",
+    excerpt: "Learn how to build modern web applications with Next.js😅",
     content:
       "Next.js is a React framework that enables functionality such as server-side rendering and static site generation...",
     date: "2023-05-12",
