@@ -22,7 +22,7 @@ export const metadata = {
         url: "/default-og.png",
         width: 1200,
         height: 630,
-        alt: "Dynamic OG Image Blog",
+        alt: "Dynamic OG Image Blog:zas",
       },
     ],
   },
