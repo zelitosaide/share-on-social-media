@@ -31,7 +31,7 @@ export default function Image() {
           color: "#0070f3",
         }}
       >
-        Dynamic OG Blog by zas
+        Dynamic OG Blog
       </div>
       <div
         style={{

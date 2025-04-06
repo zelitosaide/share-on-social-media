@@ -16,7 +16,7 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.doxample.com",
-    siteName: "Dynamic OG Blog AAABBB",
+    siteName: "Dynamic OG Blog",
     images: [
       {
         url: "/default-og.jpg",
