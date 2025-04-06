@@ -136,8 +136,33 @@ export const contentType = "image/png"
 //   )
 // }
 
-export default function Image() {
+
+
+
+// Image generation
+export default async function Image({ params }: { params: { slug: string } }) {
+  const post = await getPost(params.slug)
+
+  if (!post) {
+    return new ImageResponse(
+      <div
+        style={{
+          fontSize: 64,
+          background: "white",
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        Post not found
+      </div>,
+    )
+  }
+
   return new ImageResponse(
+    // ImageResponse JSX element
     <div
       style={{
         fontSize: 64,
@@ -153,23 +178,34 @@ export default function Image() {
     >
       <div
         style={{
-          fontSize: 72,
+          display: "flex",
+          fontSize: 24,
           fontWeight: "bold",
-          textAlign: "center",
-          marginBottom: "20px",
           color: "#0070f3",
+          marginBottom: "20px",
         }}
       >
-        Dynamic OG Blog -----
+        == My Blog ==
       </div>
       <div
         style={{
-          fontSize: 36,
+          fontSize: 64,
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "20px",
+          color: "#111",
+        }}
+      >
+        {post.title}
+      </div>
+      <div
+        style={{
+          fontSize: 28,
           color: "#444",
           textAlign: "center",
         }}
       >
-        Creating dynamic social media images with Next.js -----
+        {post.excerpt}
       </div>
     </div>,
     {
@@ -177,5 +213,8 @@ export default function Image() {
     },
   )
 }
+
+
+
 
 
